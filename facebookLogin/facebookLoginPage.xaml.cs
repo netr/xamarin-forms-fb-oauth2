@@ -14,7 +14,7 @@ namespace facebookLogin
 			FacebookOAuth fb = new FacebookOAuth();
 
 			// property initialization
-			fb.ClientId = "755702461248187";
+			fb.ClientId = "{YOUR_APPID}";
 			fb.ResponseType = "token";
 			fb.Scope = "email";
 			fb.GraphFields = "name,email,gender,picture,age_range,devices,is_verified";
