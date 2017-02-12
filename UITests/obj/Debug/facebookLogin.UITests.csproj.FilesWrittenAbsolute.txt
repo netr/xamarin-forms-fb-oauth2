@@ -1,0 +1,7 @@
+/Users/cojaxbeats/Projects/facebookLogin/UITests/obj/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/Users/cojaxbeats/Projects/facebookLogin/UITests/bin/Debug/facebookLogin.UITests.dll.mdb
+/Users/cojaxbeats/Projects/facebookLogin/UITests/bin/Debug/facebookLogin.UITests.dll
+/Users/cojaxbeats/Projects/facebookLogin/UITests/obj/Debug/facebookLogin.UITests.dll
+/Users/cojaxbeats/Projects/facebookLogin/UITests/obj/Debug/facebookLogin.UITests.dll.mdb
+/Users/cojaxbeats/Projects/facebookLogin/UITests/bin/Debug/nunit.framework.dll
+/Users/cojaxbeats/Projects/facebookLogin/UITests/bin/Debug/Xamarin.UITest.dll

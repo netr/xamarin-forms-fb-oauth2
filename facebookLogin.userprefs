@@ -1,0 +1,33 @@
+﻿<Properties StartupConfiguration="{71845BFD-1B7D-481B-B84C-EB2D37E103A8}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="facebookLogin/Classes/FacebookOAuth.cs">
+    <Files>
+      <File FileName="facebookLogin/App.xaml.cs" Line="6" Column="3" />
+      <File FileName="facebookLogin/facebookLoginPage.xaml.cs" Line="57" Column="30" />
+      <File FileName="facebookLogin/Classes/FacebookOAuth.cs" Line="147" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="facebookLogin" expanded="True">
+            <Node name="facebookLogin" expanded="True">
+              <Node name="Classes" expanded="True">
+                <Node name="FacebookOAuth.cs" selected="True" />
+              </Node>
+              <Node name="facebookLoginPage.xaml" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/cojaxbeats/Projects/facebookLogin/facebookLogin/facebookLoginPage.xaml.cs" relfile="facebookLogin/facebookLoginPage.xaml.cs" line="63" column="1" />
+      <Breakpoint file="/Users/cojaxbeats/Projects/facebookLogin/facebookLogin/facebookLoginPage.xaml.cs" relfile="facebookLogin/facebookLoginPage.xaml.cs" line="68" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.facebookLogin.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.AABA3090-BFBA-40A0-AD61-987BF3CFEF6F" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>

@@ -1,0 +1,10 @@
+/Users/cojaxbeats/Projects/facebookLogin/facebookLogin/obj/Release/.NETPortable,Version=v4.5,Profile=Profile111.AssemblyAttribute.cs
+/Users/cojaxbeats/Projects/facebookLogin/facebookLogin/obj/Release/facebookLogin.App.xaml
+/Users/cojaxbeats/Projects/facebookLogin/facebookLogin/obj/Release/facebookLogin.facebookLoginPage.xaml
+/Users/cojaxbeats/Projects/facebookLogin/facebookLogin/obj/Release/facebookLogin.App.xaml.g.cs
+/Users/cojaxbeats/Projects/facebookLogin/facebookLogin/obj/Release/facebookLogin.facebookLoginPage.xaml.g.cs
+/Users/cojaxbeats/Projects/facebookLogin/facebookLogin/bin/Release/facebookLogin.dll
+/Users/cojaxbeats/Projects/facebookLogin/facebookLogin/obj/Release/facebookLogin.dll
+/Users/cojaxbeats/Projects/facebookLogin/facebookLogin/bin/Release/Xamarin.Forms.Core.dll
+/Users/cojaxbeats/Projects/facebookLogin/facebookLogin/bin/Release/Xamarin.Forms.Platform.dll
+/Users/cojaxbeats/Projects/facebookLogin/facebookLogin/bin/Release/Xamarin.Forms.Xaml.dll
