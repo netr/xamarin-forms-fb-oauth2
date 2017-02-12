@@ -133,7 +133,7 @@ namespace facebookLogin
 		/// </summary>
 		public string GenerateRequestUrl()
 		{
-			if(_clientid == null)
+			if(_clientid == null | _clientid == "{YOUR_APPID}")
 				throw new NullReferenceException("Missing Facebook Client Id (App id)");
 			
 			return "https://www.facebook.com/v2.8/dialog/oauth?client_id=" + _clientid +
