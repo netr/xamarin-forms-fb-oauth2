@@ -3,6 +3,7 @@ using System.Net.Http;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.Diagnostics;
+using Xamarin.Forms;
 
 namespace facebookLogin
 {
@@ -140,6 +141,21 @@ namespace facebookLogin
 					(_scope != null ? "&scope=" + _scope : "") +
 					"&redirect_uri=https://www.facebook.com/connect/login_success.html" +
 					(_responseType != null ? "&response_type=" + _responseType : "");
+		}
+
+		/// <summary>
+		/// Initializes the web view.
+		/// </summary>
+		public WebView InitializeWebView(string apiRequest = null)
+		{
+			if (apiRequest == null)
+				apiRequest = GenerateRequestUrl();
+			
+			return new WebView
+			{
+				Source = apiRequest,
+				HeightRequest = 1,
+			};
 		}
 
 	}

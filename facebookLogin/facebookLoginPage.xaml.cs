@@ -23,15 +23,8 @@ namespace facebookLogin
 			fb.OnGraphSuccess += new OnGraphSuccessEventHandler(OnGraphSuccess);
 			fb.OnGraphFailure += new OnGraphFailureEventHandler(OnGraphFailure);
 
-			// create api request
-			var apiRequest = fb.GenerateRequestUrl();
-
 			// initalize new web view
-			var webView = new WebView
-			{
-				Source = apiRequest,
-				HeightRequest = 1,
-			};
+			var webView = fb.InitializeWebView();
 
 			// create navigated delegate to check when access token has arrived
 			webView.Navigated += async (sender, e) =>
@@ -39,11 +32,11 @@ namespace facebookLogin
 
 				try
 				{
-					string accessToken = fb.ExtractAccessToken(e.Url);
-					if (accessToken != null)
+					fb.ExtractAccessToken(e.Url);
+					if (fb.AccessToken != null)
 					{
-						Debug.WriteLine(@"access token: " + accessToken);
-						await fb.GetFacebookProfileAsync(accessToken, fb.GraphFields);
+						Debug.WriteLine(@"access token: " + fb.AccessToken);
+						await fb.GetFacebookProfileAsync(fb.AccessToken, fb.GraphFields);
 					}
 
 				}
